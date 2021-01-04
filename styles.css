@@ -1,0 +1,55 @@
+body{
+    background: #121212;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.btn {
+  border-style: none;
+  padding: 8px 30px;
+  font-size: .8rem;
+}
+
+.btn.primary {
+  background: #000000;
+  color: #FFFFFF;
+}
+
+.btn.secondary {
+  background: #FFFFFF;
+  color: #000000;
+  border: 1px solid #000000;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+   background: #FFF;
+  padding: 20px;
+  }
+
+
+.form-title {
+    font-family: sans-serif; 
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+}
+
+.form-instructions {
+    margin-bottom: 40px;
+}
+
+.form-group { 
+    margin-bottom: 20px;
+}
+
+@media screen and (min-width: 600px) {
+    .form-container {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      max-width: 300px;
+      background: #FFF;
+      padding: 30px 20px;
+  }
+}
